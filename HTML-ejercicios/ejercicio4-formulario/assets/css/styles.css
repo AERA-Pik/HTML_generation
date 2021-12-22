@@ -1,0 +1,21 @@
+form {
+    height: 350px;
+    width: 350px;
+    color: white;
+    background-color: green;
+    padding: 25px;
+    border: 10px solid lightskyblue;
+    border-radius: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 20px;
+    margin-left: 30px;
+}
+
+.campo {
+    margin-left: 25%;    
+    border: 2px solid red;
+    margin-bottom: 10px;    
+}
