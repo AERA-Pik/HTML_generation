@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/tablas.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>Tablas</h1>
+    <!-- colspan y row span -->
+    <!-- colspan: se extiende el elemento por N columnas -->
+    <!-- rowspan: se extiende por N filas -->
+    <table>
+        <thead>
+            <!-- tr: crea una fila-->
+            <tr> <!-- table row -->
+                <th>Cabecera</th> <!-- table header -->
+                <th colspan="2">Cabecera 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+            </tr>
+            <tr>
+                <td>Hola</td>
+                <td>Adios</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>pie de tabla</td>
+            <td>pie de tabla</td>
+            <td>pie de tabla</td>
+        </tfoot>
+    </table>
+    <span class="material-icons-outlined material-icons">home</span>
+</body>
+</html>
